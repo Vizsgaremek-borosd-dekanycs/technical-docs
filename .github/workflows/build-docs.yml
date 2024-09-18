@@ -31,5 +31,5 @@ jobs:
         with:
           name: docs
           path: |
-            artifacts/${{ env.ARTIFACT }}
+            writeside-docs/artifacts/${{ env.ARTIFACT }}
           retention-days: 7

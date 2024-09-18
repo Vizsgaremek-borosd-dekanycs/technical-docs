@@ -7,7 +7,7 @@ on:
 
 env:
   INSTANCE: 'Writerside/td'
-  ARTIFACT: 'webHelpHI2-all.zip'
+  ARTIFACT: 'webHelpTD2-all.zip'
   DOCKER_VERSION: '241.18775'
 
 jobs:

@@ -4,7 +4,11 @@ on:
   push:
     branches: ["main"]
   workflow_dispatch:
-
+  
+permissions:
+  id-token: write
+  pages: write
+  
 env:
   INSTANCE: 'Writerside/td'
   ARTIFACT: 'webHelpTD2-all.zip'
